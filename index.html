@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>page1</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        background-color: black;
+        /* font-family: Arial, Helvetica, sans-serif; */
+      }
+      p {
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .div {
+        margin-top: 600px;
+      }
+      .button {
+        display: inline-block;
+        /* background-image: linear-gradient(
+          to right,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          violet
+        ); */
+        background-image: url(heart.jpeg);
+        background-repeat: no-repeat;
+        background-size: 600px 350px;
+        font-weight: bold;
+        color: Blac;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 3px;
+        padding: 30px;
+        cursor: pointer;
+        transition: background-color 1s, color 1s, box-shadow 1s, opacity 1s,
+          font-size 1s, padding 1s, color 1s;
+        opacity: 1;
+      }
+      .button:active {
+        opacity: 1;
+        font-size: 40px;
+        /* padding: 200px; */
+        padding: 100px 200px 100px 200px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+        white-space: nowrap;
+        /* background-image: url(heart.jpeg); */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div">
+      <div>
+        <button class="button"><p>I Love You</p></button>
+      </div>
+      <p
+        style="
+          display: block;
+          font-weight: bold;
+          font-size: 40px;
+          color: white;
+          margin-top: 0px;
+        "
+      >
+        &#8593; CLICK HERE AND HOLD
+      </p>
+    </div>
+  </body>
+</html>
